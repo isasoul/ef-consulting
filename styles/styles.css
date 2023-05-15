@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Work+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo__ef{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.carousel__size{
+    height: 900px;
+    object-fit:fill;
+}
+.navbar__section{
+    font-family: 'Work Sans', sans-serif;
+    margin: 5px;
+}
