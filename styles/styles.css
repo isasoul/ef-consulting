@@ -27,10 +27,10 @@
     margin: 5px;
 }
 .main__section{
-    background-color: #da4d59;
+    background-color: #deeff8;
     padding: 5px;
     padding-bottom: 20px;
-    height: 1200px;
+    height: 1000px;
 
 }
 .info__cards{
@@ -44,13 +44,19 @@
     text-align: center;
     font-size: 5em;
     color:black;
-    background-color: #ec6e79;
+    background-color:#deeff8;
+    -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
 }
 .description__main{
     font-family:'Playfair Display', serif; 
     text-align: center;
     font-size: 2.3em;
     background-color: azure ;
+    -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
 }
 
 
@@ -60,6 +66,7 @@
     border-radius: 50%;
     margin: 5px;
     margin-left:40% ;
+
 }
 .footer__section{
     background-color:#5c5959  ;
@@ -94,23 +101,28 @@
  .card_display{
     display: none;
     position: absolute;
-
+    -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
 }
 
   .title__info{
     font-family:  'Abel', sans-serif;
-    background-color:black;
-    color:#D5E5F2;
+    background-color:azure;
+    color:#171818;
     width: fit-content;
     padding: 10px;
     font-size: 3em;
     margin: 10px;
+    -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
 
   }
   .text__info{
     font-family: 'Abel', sans-serif;
-    background-color:black;
-    color:#D5E5F2;
+    background-color:azure;
+    color:#171818;
     font-size: 1.3em;
     padding: 15px;
     text-align: justify;
@@ -150,5 +162,8 @@
     }
     .copyright_info{
         font-size: 0.6em;
+    }
+    .card_display{
+        width: 290px;
     }
  }
