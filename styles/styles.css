@@ -9,8 +9,16 @@
     border-radius: 50%;
     padding: 5px;
 }
+.logo__ef-2 {
+    width:150px;
+    height: 135px;
+    padding: 5px;
+    border-radius: 10%;
+
+} 
+
 .carousel__size{
-    height: 780px;
+    height: 78vh;
     object-fit:fill;
 }
 .navbar__section{
@@ -37,16 +45,17 @@
 }
 .text__description{
     font-family:'Playfair Display', serif; 
-    text-align: center;
+    text-align:justify;
     font-size: 1.5em;
     width: 80%;
-    background-color:#444343  ;
+    background-color:#5e5c5c  ;
     font-weight: 200;
     color: azure;
     border-radius: 0.5%;
     padding: 1em;
     margin: 5px;
     margin-left: 12%;
+    
 }
 .img__main{
     width: 20%;
@@ -60,13 +69,13 @@
    padding: 15px;
 }
 .list__footer{
-    width: 30%;
+    width: 40%;
 }
 .footer__info{
     list-style: none;
     font-family:'Playfair Display', serif; 
     text-align:start;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight:300;
     color:  azure ;
 
@@ -78,3 +87,42 @@
     font-weight:300;
     color:  azure ; 
 }
+.efecto__nav:hover{
+    transform: scale(1.1);
+ }
+
+ @media only screen and (max-width:450px) {
+
+    .logo__ef{
+        width:100px;
+        height: 100px;
+    }
+
+    .carousel__size{
+        height: 35vh;
+    }
+
+    .title_main{
+        font-size: 2em;
+    }
+    .img__main{
+        width: 50%;
+        height: 50%;
+        margin-left: 27%;
+    }
+    .description__main{
+        font-size: 1.5em;
+    }
+    .text__description{
+        font-size: 0.7em;
+    }
+    .list__footer{
+        width: 100%;
+    }
+    .footer__info{
+        font-size: 0.5em;
+    }
+    .copyright_info{
+        font-size: 0.6em;
+    }
+ }
