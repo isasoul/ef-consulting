@@ -78,9 +78,9 @@
             <div class="info__cards">
             
               <div>
-                <h3 onmouseover="showCard()" onmouseout="hideCard()" class="title__info border border-light rounded efecto__nav">
+                <h3 onmouseover="showCard(event)" onmouseout="hideCard(event)" onclick="toggleCard(event)"  class="title__info border border-light rounded efecto__nav">
                   ACERCA DE MI</h3>
-                <div class="card-body card_display" id="">
+                <div class="card-body card_display" id="card">
                   <p class="text__info border border-light rounded">Soy Economista con varios años de experiencia en el área
                     económica
                     del transporte
@@ -92,13 +92,12 @@
               </div>
             
               <div>
-                <h3  onmouseover="showCard1()" onmouseout="hideCard1()" class="title__info border border-light rounded efecto__nav">
+                <h3 onmouseover="showCard1(event)" onmouseout="hideCard1(event)" onclick="toggleCard1(event)"  class="title__info border border-light rounded efecto__nav">
                   MI VISION
                   </h3>
                 <div class="card-body  card_display" id="card1">
-                  <p class="text__info border border-light rounded"> La visión global que tengo de la actividad de transporte aéreo
-                    la
-                    he obtenido desde mi
+                  <p class="text__info border border-light rounded"> 
+                    La visión global que tengo de la actividad de transporte aéreo la he obtenido desde mi
                     condición del ejercicio público, primero como Analista de los diferentes procesos en
                     materia de Aviación Civil en el Sector Gobierno y como Autoridad Aeronáutica al
                     desempeñarme como Director de Transporte Aéreo en Venezuela, y en el ejercicio
@@ -108,10 +107,10 @@
               </div>
             
               <div>
-                <h3 onmouseover="showCard(event)" onmouseout="hideCard(event)" onclick="toggleCard(event)"  class="title__info border border-light rounded efecto__nav">
+                <h3 onmouseover="showCard2(event)" onmouseout="hideCard2(event)" onclick="toggleCard2(event)"  class="title__info border border-light rounded efecto__nav">
                   MI FORMACION
                   </h3>
-                <div class="card-body  card_display"  id="card" >
+                <div class="card-body  card_display"  id="card2">
                   <p class="text__info border border-light rounded"> Mi formación Académica se la debo a la Universidad de Los andes
                     de Venezuela, la
                     Organización de Aviación Civil Internacional, (OACI), la Comisión Latinoamericana de
@@ -141,42 +140,6 @@
       
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     
-    <script>
-   function showCard(event) {
-      const isMobile = isMobileDevice();
-
-      if (!isMobile) {
-        const card = document.getElementById('card');
-        card.style.display = 'block';
-      }
-    }
-
-    function hideCard(event) {
-      const isMobile = isMobileDevice();
-
-      if (!isMobile) {
-        const card = document.getElementById('card','card','card');
-        card.style.display = 'none';
-      }
-    }
-
-    function toggleCard(event) {
-      const isMobile = isMobileDevice();
-      const card = document.getElementById('card');
-
-      if (isMobile) {
-        if (card.style.display === 'none') {
-          card.style.display = 'block';
-        } else {
-          card.style.display = 'none';
-        }
-      }
-    }
-
-    function isMobileDevice() {
-      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    }
-
-    </script>
+      <script src="index.js"></script>
 </body>
 </html>
