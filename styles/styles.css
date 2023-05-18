@@ -177,4 +177,7 @@
         width: 290px;
         position: relative;
     }
+    .efecto__nav:hover{
+        transform: none;
+     }
  }
