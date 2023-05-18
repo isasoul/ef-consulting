@@ -27,7 +27,7 @@
     margin: 5px;
 }
 .main__section{
-    background-color: #deeff8;
+    background-color: #f5f9fc;
     padding: 5px;
     padding-bottom: 20px;
     height: 1000px;
@@ -71,7 +71,7 @@
 .footer__section{
     background-color:#5c5959  ;
    padding: 15px;
-   height: 400px;
+   height: 200px;
 }
 .list__footer{
     width: 40%;
@@ -97,23 +97,24 @@
  }
  
 
-
  .card_display{
     display: none;
     position: absolute;
     -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
+    width: 450px;
 }
 
   .title__info{
     font-family:  'Abel', sans-serif;
-    background-color:azure;
+    background-color:#deeff8;
     color:#171818;
-    width: fit-content;
+    width: 300px;
     padding: 10px;
-    font-size: 3em;
+    font-size: 2em;
     margin: 10px;
+    text-align: center;
     -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);

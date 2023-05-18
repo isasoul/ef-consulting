@@ -79,7 +79,7 @@
             
               <div>
                 <h3 onmouseover="showCard()" onmouseout="hideCard()" class="title__info border border-light rounded efecto__nav">
-                  Acerca de mí</h3>
+                  ACERCA DE MI</h3>
                 <div class="card-body card_display" id="card">
                   <p class="text__info border border-light rounded">Soy Economista con varios años de experiencia en el área
                     económica
@@ -93,8 +93,8 @@
             
               <div>
                 <h3 onmouseover="showCard1()" onmouseout="hideCard1()" class="title__info border border-light rounded efecto__nav">
-                  Mi
-                  visión</h3>
+                  MI VISION
+                  </h3>
                 <div class="card-body  card_display" id="card1">
                   <p class="text__info border border-light rounded"> La visión global que tengo de la actividad de transporte aéreo
                     la
@@ -108,10 +108,10 @@
               </div>
             
               <div>
-                <h3 onmouseover="showCard2()" onmouseout="hideCard2()" class="title__info border border-light rounded efecto__nav">
-                  Mi
-                  formación</h3>
-                <div class="card-body  card_display" id="card2">
+                <h3 onmouseover="showCard2()" onmouseout="hideCard2()" onclick="showCard2click()" onclick="hideCard2click()" class="title__info border border-light rounded efecto__nav">
+                  MI FORMACION
+                  </h3>
+                <div class="card-body  card_display" id="card2" id="card2click">
                   <p class="text__info border border-light rounded"> Mi formación Académica se la debo a la Universidad de Los andes
                     de Venezuela, la
                     Organización de Aviación Civil Internacional, (OACI), la Comisión Latinoamericana de
@@ -164,6 +164,14 @@
       }
       function hideCard2() {
       const card = document.getElementById('card2');
+      card.style.display = 'none';
+    }
+    function showCard2click() {
+        const card = document.getElementById('card2click');
+        card.style.display = 'block';
+      }
+      function hideCard2click() {
+      const card = document.getElementById('card2click');
       card.style.display = 'none';
     }
     </script>
