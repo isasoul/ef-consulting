@@ -178,6 +178,6 @@
         position: relative;
     }
     .efecto__nav:hover{
-        transform: none;
+        display: none;
      }
  }
