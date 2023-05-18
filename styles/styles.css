@@ -27,7 +27,9 @@
     margin: 5px;
 }
 .main__section{
-    background-color: #f5f9fc;
+    background-image:url(../assets-ef/graficos/graficos-1.jpg) ;
+    background-size: 100% auto;
+    object-fit:fill;
     padding: 5px;
     padding-bottom: 20px;
     height: 1000px;
@@ -107,9 +109,9 @@
 }
 
   .title__info{
-    font-family:  'Abel', sans-serif;
-    background-color:#deeff8;
-    color:#171818;
+    font-family:  'Playfair Display', serif;
+    background-color:#171818;
+    color:#feffff;
     width: 300px;
     padding: 10px;
     font-size: 2em;
@@ -138,6 +140,10 @@
 
     .carousel__size{
         height: 35vh;
+    }
+    .main__section{
+        background-size: 150%;
+        height: fit-content;
     }
 
     .title_main{

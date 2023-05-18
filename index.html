@@ -80,7 +80,7 @@
               <div>
                 <h3 onmouseover="showCard()" onmouseout="hideCard()" class="title__info border border-light rounded efecto__nav">
                   ACERCA DE MI</h3>
-                <div class="card-body card_display" id="card">
+                <div class="card-body card_display" id="">
                   <p class="text__info border border-light rounded">Soy Economista con varios años de experiencia en el área
                     económica
                     del transporte
@@ -92,7 +92,7 @@
               </div>
             
               <div>
-                <h3 onmouseover="showCard1()" onmouseout="hideCard1()" class="title__info border border-light rounded efecto__nav">
+                <h3  onmouseover="showCard1()" onmouseout="hideCard1()" class="title__info border border-light rounded efecto__nav">
                   MI VISION
                   </h3>
                 <div class="card-body  card_display" id="card1">
@@ -108,10 +108,10 @@
               </div>
             
               <div>
-                <h3 onmouseover="showCard2()" onmouseout="hideCard2()" onclick="toggleCard()"  class="title__info border border-light rounded efecto__nav">
+                <h3 onmouseover="showCard(event)" onmouseout="hideCard(event)" onclick="toggleCard(event)"  class="title__info border border-light rounded efecto__nav">
                   MI FORMACION
                   </h3>
-                <div class="card-body  card_display" id="card2" >
+                <div class="card-body  card_display"  id="card" >
                   <p class="text__info border border-light rounded"> Mi formación Académica se la debo a la Universidad de Los andes
                     de Venezuela, la
                     Organización de Aviación Civil Internacional, (OACI), la Comisión Latinoamericana de
@@ -142,40 +142,40 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     
     <script>
-      function showCard() {
+   function showCard(event) {
+      const isMobile = isMobileDevice();
+
+      if (!isMobile) {
         const card = document.getElementById('card');
         card.style.display = 'block';
       }
-      function hideCard() {
-      const card = document.getElementById('card');
-      card.style.display = 'none';
     }
-    function showCard1() {
-        const card = document.getElementById('card1');
-        card.style.display = 'block';
-      }
-      function hideCard1() {
-      const card = document.getElementById('card1');
-      card.style.display = 'none';
-    }
-    function showCard2() {
-        const card = document.getElementById('card2');
-        card.style.display = 'block';
-      }
-      function hideCard2() {
-      const card = document.getElementById('card2');
-      card.style.display = 'none';
-    }
-    function toggleCard() {
-      const card = document.getElementById('card2');
-      
-      if (card.style.display === 'none') {
-        card.style.display = 'block';
-      } else {
+
+    function hideCard(event) {
+      const isMobile = isMobileDevice();
+
+      if (!isMobile) {
+        const card = document.getElementById('card','card','card');
         card.style.display = 'none';
       }
     }
-    
+
+    function toggleCard(event) {
+      const isMobile = isMobileDevice();
+      const card = document.getElementById('card');
+
+      if (isMobile) {
+        if (card.style.display === 'none') {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      }
+    }
+
+    function isMobileDevice() {
+      return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+    }
 
     </script>
 </body>
