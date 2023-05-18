@@ -108,10 +108,10 @@
               </div>
             
               <div>
-                <h3 onmouseover="showCard2()" onmouseout="hideCard2()" onclick="showCard2click()" onclick="hideCard2click()" class="title__info border border-light rounded efecto__nav">
+                <h3 onmouseover="showCard2()" onmouseout="hideCard2()" onclick="toggleCard()"  class="title__info border border-light rounded efecto__nav">
                   MI FORMACION
                   </h3>
-                <div class="card-body  card_display" id="card2" id="card2click">
+                <div class="card-body  card_display" id="card2" >
                   <p class="text__info border border-light rounded"> Mi formación Académica se la debo a la Universidad de Los andes
                     de Venezuela, la
                     Organización de Aviación Civil Internacional, (OACI), la Comisión Latinoamericana de
@@ -166,14 +166,17 @@
       const card = document.getElementById('card2');
       card.style.display = 'none';
     }
-    function showCard2click() {
-        const card = document.getElementById('card2click');
+    function toggleCard() {
+      const card = document.getElementById('card2');
+      
+      if (card.style.display === 'none') {
         card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
       }
-      function hideCard2click() {
-      const card = document.getElementById('card2click');
-      card.style.display = 'none';
     }
+    
+
     </script>
 </body>
 </html>
