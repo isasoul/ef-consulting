@@ -134,6 +134,13 @@
     text-align: justify;
   }
 
+  /*--------------------------------*/
+  EXPERIENCIA
+  .main__section-experiencia{
+    background-image: url(../assets-ef/oficina/oficina-1.jpg);
+    background-size: 100%;
+  }
+
  @media only screen and (max-width:450px) {
 
     .logo__ef{
