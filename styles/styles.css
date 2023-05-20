@@ -17,6 +17,10 @@
     border-radius: 10%;
 
 } 
+.carousel__size{
+    height: 78vh;
+    object-fit:fill;
+}
 .nav__space{
     margin: 5px;
     padding-left: 10px;
@@ -133,8 +137,8 @@
 
   .text__info{
     font-family: 'Abel', sans-serif;
-    background-color:rgba(240, 255, 255, 0.877);
-    color:#0a0a0a;
+    background-color:rgba(240, 255, 255, 0.952);
+    color:#000000;
     font-size: 1.3em;
     padding: 15px;
     text-align: justify;
@@ -187,12 +191,12 @@
     }
 
     .carousel__size{
+        margin-top: 50px;
         height: 35vh;
     }
     .main__section{
         background-size: 150%;
         height: fit-content;
-        margin-top: 150px;
     }
 
     .title_main{
@@ -208,11 +212,11 @@
     }
     .title__info{
         width: 300px;
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
     
     .text__info{
-        font-size: 0.8em;
+        font-size: 1em;
     }
     .list__footer{
         width: 100%;
