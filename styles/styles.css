@@ -236,5 +236,10 @@
      .header-position{
         position: relative;
      }
+     .box__div{
+        background-color: #171818;
+        height: 5px;
+        width: 100vw;
+     }
 
  }
