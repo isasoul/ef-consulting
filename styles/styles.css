@@ -192,6 +192,7 @@
     .main__section{
         background-size: 150%;
         height: fit-content;
+        margin-top: 150px;
     }
 
     .title_main{
