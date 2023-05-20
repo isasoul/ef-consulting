@@ -71,11 +71,12 @@
     -webkit-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
     -moz-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
     box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
+    
 
 
 }
 .footer__section{
-    background-color:#5c5959  ;
+    background-color:#5c5959c0  ;
    padding: 15px;
    height: 200px;
 }
@@ -125,6 +126,9 @@
     -moz-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
     box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
   }
+  .avion{
+    transform:rotate(90deg);
+ }
 
   .text__info{
     font-family: 'Abel', sans-serif;
@@ -157,7 +161,23 @@
     padding: 20px;
 
   }
+  .experiencia_card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
+  .card-exp{
+    object-fit: cover;
+    width: 20em;
+    height: 250px;
+  }
+.card-exp-txt{
+    margin: 20px;
+    font-family: 'Abel', sans-serif;
+    color: #000000;
+}
  @media only screen and (max-width:450px) {
 
     .logo__ef{
@@ -208,5 +228,9 @@
         height: fit-content;
         width: 100%;
         
+     }
+     .texto-experiencia{
+        font-size: 1.1em;
+        width: 80%;
      }
  }
