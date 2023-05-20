@@ -205,6 +205,10 @@
     .description__main{
         font-size: 1.5em;
     }
+    .title__info{
+        width: 300px;
+        font-size: 1.2em;
+    }
     
     .text__info{
         font-size: 0.8em;
