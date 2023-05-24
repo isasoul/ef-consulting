@@ -85,7 +85,7 @@
 .footer__section{
     background-color:#5c5959ef  ;
    padding: 15px;
-   height: 200px;
+   height: fit-content;
 }
 .list__footer{
     width: 40%;
@@ -183,6 +183,23 @@
     font-family: 'Abel', sans-serif;
     color: #000000;
 }
+.main-mision{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.img-mision{
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    -webkit-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
+    -moz-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
+    box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
+}
+
  @media only screen and (max-width:450px) {
 
     .logo__ef{
