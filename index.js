@@ -104,3 +104,40 @@ function showCard(event) {
     return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
   }
 
+  
+  //-----------------------------------------------------
+
+  function showCard3(event) {
+    const isMobile3 = isMobileDevice3();
+
+    if (!isMobile3) {
+      const card3 = document.getElementById('card3') ;
+      card3.style.display = 'block';
+    }
+  }
+
+  function hideCard3(event) {
+    const isMobile3 = isMobileDevice3();
+
+    if (!isMobile3) {
+      const card3 = document.getElementById('card3');
+      card3.style.display = 'none';
+    }
+  }
+
+  function toggleCard3(event) {
+    const isMobile3 = isMobileDevice3();
+    const card3 = document.getElementById('card3');
+
+    if (isMobile3) {
+      if (card3.style.display === 'none') {
+        card3.style.display = 'block';
+      } else {
+        card3.style.display = 'none';
+      }
+    }
+  }
+  function isMobileDevice3() {
+    return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  }
+

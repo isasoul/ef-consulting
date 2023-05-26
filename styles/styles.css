@@ -53,7 +53,7 @@
     text-align: center;
     font-size: 5em;
     color:black;
-    background-color:#deeff8;
+    background-color:#deeff8f1;
     -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
@@ -62,7 +62,7 @@
     font-family:'Playfair Display', serif; 
     text-align: center;
     font-size: 2.3em;
-    background-color: azure ;
+    background-color: rgba(240, 255, 255, 0.87) ;
     -webkit-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     -moz-box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
     box-shadow: 8px 12px 5px -1px rgba(200,221,235,0.62);
@@ -121,12 +121,12 @@
 }
 
   .title__info{
-    font-family:  'Playfair Display', serif;
-    background-color:#171818;
+    font-family:  'Abel', sans-serif;
+    background-color:#171818da;
     color:#feffff;
     width: 300px;
     padding: 10px;
-    font-size: 2em;
+    font-size: 1.9em;
     margin: 10px;
     text-align: center;
     -webkit-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
@@ -146,7 +146,7 @@
 
   
   .img_exp{
-    background-image:url(../assets-ef/graficos/graficos-2.jpg);
+    background-image:url(../assets-ef/graficos/graficos-7.jpg);
     background-size: 100% auto;
     object-fit:contain;
     height: fit-content;
@@ -160,7 +160,7 @@
     color:#0a0a0a;
     font-family: 'Abel', sans-serif;
     width: 72%;
-    text-align: center;
+    text-align: justify;
     margin-left: 14%;
     font-size: 1.5em;
     padding: 20px;
@@ -176,29 +176,20 @@
   .card-exp{
     object-fit: cover;
     width: 20em;
-    height: 250px;
+    height: fit-content;
   }
 .card-exp-txt{
     margin: 20px;
     font-family: 'Abel', sans-serif;
     color: #000000;
+    text-align: justify;
 }
-.main-mision{
-    margin-top: 20PX;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.card-servicios{
+    object-fit: fill;
+    width: 25em;
+    height: 250px;
+}
 
-}
-
-.img-mision{
-    width: 400px;
-    height: 300px;
-    margin: 15px;
-    -webkit-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
-    -moz-box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
-    box-shadow: -17px -15px 34px -12px rgba(0,0,0,0.75);
-}
 
  @media only screen and (max-width:450px) {
 
@@ -274,5 +265,9 @@
      }
      .texto-experiencia{
         margin-left: 11%;
+     }
+     .card-servicios{
+        width: 21rem;
+
      }
  }
