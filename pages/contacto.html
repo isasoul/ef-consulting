@@ -5,16 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <title>EF CONSULTING - CONTACTO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="icon" type="image/jpg" href="../assets-ef/logos/5.png"/>
-
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="icon" type="image/jpg" href="../assets-ef/logos/5.png" />
 </head>
 
-<body>
+<body class="img_exp">
     <header>
         <nav class="navbar fixed-top navbar-expand-lg bg-secondary-subtle navbar__section opacity-75">
             <div class="container-fluid">
@@ -51,33 +50,61 @@
             </div>
         </nav>
     </header>
+    <main>
+        <form id="form" action="https://formspree.io/f/xrgvvody" method="POST" class="contact-form bg-secondary-subtle rounded  ">
+            <div class="mb-3">
+                <label for="name" class="form-label">NOMBRE </label>
+                <input name="name" required type="text" class="form-control" id="name" placeholder="">
+              </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">EMAIL </label>
+                <input name="email" required type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">MENSAJE</label>
+                <textarea name="mensaje" class="form-control" id="mensaje" rows="3"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary bg-dark">ENVIAR</button>
+              </div>
+
+        </form>
+    </main>
 
     <footer class="footer__section">
         <div class="info__footer">
 
-             <div class="footer__item ">
-              <ul class="list__footer">
-                <li class="footer__info">CORREO ELECTRONICO  <br> EFCONSULTING2000@GMAIL.COM - EFCONSULTING2000@HOTMAIL.COM</li>
-                <li class="footer__info">TELEFONOS <br> (058) 212-9935084 <br> (058) 0416-6110236 <br> 954 3813424 (USA)</li>
-                <li class="footer__info">DIRECCIÓN <br> OFICINA: AV. ORINOCO, EDIFICIO MENDI EDER , PISO1 OF 1ª, <BR> LAS MERCEDES,
-                  CARACAS 1060, VENEZUELA.</li>
-                <li class="footer__info">COLEGIO DE ECONOMISTAS NO. 1844.</li>
-              </ul>
+            <div class="footer__item ">
+                <ul class="list__footer">
+                    <li class="footer__info">CORREO ELECTRONICO <br> EFCONSULTING2000@GMAIL.COM -
+                        EFCONSULTING2000@HOTMAIL.COM</li>
+                    <li class="footer__info">TELEFONOS <br> (058) 212-9935084 <br> (058) 0416-6110236 <br> 954 3813424
+                        (USA)</li>
+                    <li class="footer__info">DIRECCIÓN <br> OFICINA: AV. ORINOCO, EDIFICIO MENDI EDER , PISO1 OF 1ª,
+                        <BR> LAS MERCEDES,
+                        CARACAS 1060, VENEZUELA.</li>
+                    <li class="footer__info">COLEGIO DE ECONOMISTAS NO. 1844.</li>
+                </ul>
             </div>
 
 
 
 
             <div class="footer__item">
-              <ul class="list__footer">
-                <li class="footer__info efecto__nav"><a class="link-footer" href="/pages/experiencia.html">EXPERIENCIA</a></li>
-                <li class="footer__info efecto__nav"><a class="link-footer" href="/pages/servicios.html">SERVICIOS</a></li>
-                <li class="footer__info efecto__nav"> <a class="link-footer" href="/pages/contacto.html">CONTACTO</a></li>
-              </ul>
+                <ul class="list__footer">
+                    <li class="footer__info efecto__nav"><a class="link-footer" href="./contacto.html">EXPERIENCIA</a>
+                    </li>
+                    <li class="footer__info efecto__nav"><a class="link-footer" href="./servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="footer__info efecto__nav"> <a class="link-footer" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
             </div>
 
-            <div class="footer__item"> 
-              <a href="./index.html"> <img src="../assets-ef/logos/6.png" class="logo__ef-2 efecto__nav" alt="logo-ef-2"></a>
+            <div class="footer__item">
+                <a href="../index.html"> <img src="../assets-ef/logos/6.png" class="logo__ef-2 efecto__nav"
+                        alt="logo-ef-2"></a>
             </div>
 
         </div>
@@ -87,7 +114,9 @@
         <h5 class="copyright_info" copyright_info>© Copyright 2023 Elena Fernández </h5>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
 
 
 </body>
