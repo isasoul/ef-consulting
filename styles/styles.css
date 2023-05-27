@@ -83,21 +83,50 @@
 
 }
 .footer__section{
-    background-color:#5c5959ef  ;
+    background-color:#5c59599a  ;
    padding: 15px;
    height: fit-content;
 }
 .list__footer{
-    width: 40%;
+    width: fit-content  ;
+    text-align: center;
+
 }
 .footer__info{
     list-style: none;
     font-family:'Abel', sans-serif;
     text-align:start;
-    font-size: 0.8em;
+    font-size: 1.1em;
     font-weight:300;
     color:  azure ;
+    padding: 5px;
 
+
+
+}
+.info__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex-direction:row;
+}
+.footer__item{
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
+.logo__ef-2{
+    width: 200px;
+    height: 190px;
+}
+.link-footer{
+    text-decoration: none;
+    color: #feffff;
+    font-size: 1.6em;
+    background-color: #17181885;
+    padding: 5px;
+    text-align: center;
+    border-radius: 1%;
 }
 .copyright_info{
     font-family:'Playfair Display', serif; 
