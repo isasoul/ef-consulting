@@ -201,23 +201,25 @@
     justify-content: center;
     flex-wrap: wrap;
   }
-
+/*
   .card-exp{
     object-fit: cover;
     width: 20em;
     height: fit-content;
   }
+  */
 .card-exp-txt{
     margin: 20px;
     font-family: 'Abel', sans-serif;
     color: #000000;
     text-align: justify;
 }
+/*
 .card-servicios{
     object-fit: fill;
     width: 25em;
     height: 250px;
-}
+}*/
 
 .contact-form{
     margin: 200px;
@@ -259,6 +261,7 @@
     
     .text__info{
         font-size: 1em;
+        margin-left: 27px;
     }
     .list__footer{
         width: 100%;
@@ -300,10 +303,13 @@
      .texto-experiencia{
         margin-left: 11%;
      }
+     /*
      .card-servicios{
-        width: 21rem;
+        width: 334px;
+        height: 225px;
 
      }
+     */
      .contact-form{
         margin: 10px;
         margin-top: 150px;
